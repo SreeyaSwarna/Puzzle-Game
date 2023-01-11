@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Puzzle</title>
+		  <link rel = "stylesheet" type = "text/css" href ="style.css">
+		  <script src="script.js"></script>
+    </head>
+    <header>
+      <img src="https://play-lh.googleusercontent.com/3WmU2VWi9SJDJA_OACS0tQ0TejcmVr91ICmyvyW1hS5SLbQCk9G1_ogYRxLWVbUylQ" alt="profile-img">
+     
+    </header>
+
+    <body onload="start()">
+      <h2>Puzzle Game</h2>
+      <table class="special">
+        <tr>
+          <td class="cell" onclick="doClick(this)" id="0">1</td>
+          <td class="cell" onclick="doClick(this)" id="1">2</td>
+          <td class="cell" onclick="doClick(this)" id="2">3</td>
+          <td class="cell" onclick="doClick(this)" id="3">4</td>
+        </tr>
+        <tr>
+          <td class="cell" onclick="doClick(this)" id="4">5</td>
+          <td class="cell" onclick="doClick(this)" id="5">6</td>
+          <td class="cell" onclick="doClick(this)" id="6">7</td>
+          <td class="cell" onclick="doClick(this)" id="7">8</td>
+        </tr>
+        <tr>
+          <td class="cell" onclick="doClick(this)" id="8">9</td>
+          <td class="cell" onclick="doClick(this)" id="9">10</td>
+          <td class="cell" onclick="doClick(this)" id="10">11</td>
+          <td class="cell" onclick="doClick(this)" id="11">12</td>
+        </tr>
+        <tr>
+          <td class="cell" onclick="doClick(this)" id="12">13</td>
+          <td class="cell" onclick="doClick(this)" id="13">14</td>
+          <td class="cell" onclick="doClick(this)" id="14">15</td>
+          <td class="cell" onclick="doClick(this)" id="15"></td>
+        </tr>
+      </table>
+	  
+      <p id="moves">No. of Moves: </p>
+      <p id="time">Time: </p>
+      <p>
+      
+      <button onclick="simpleGame()">Simple Game!</button>
+      <button onclick="window.location.reload()">New Game</button>
+      
+      </p>
+      <p>
+      </p>
+	  
+    </body>
+</html>

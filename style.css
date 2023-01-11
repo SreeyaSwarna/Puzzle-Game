@@ -1,0 +1,83 @@
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/003/807/112/non_2x/colorful-puzzle-background-vector.jpg");
+  
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}	  
+.special {
+  border-style: solid;
+  border-color: blue;
+  border-width: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+header {
+  display: flex;
+  font-size: 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  background-color: transparent;
+}
+
+header * {
+  display: inline;
+  height: 50px;
+}
+
+header ul {
+  padding: 100px;
+}
+
+header li {
+  margin-left: 450px;
+}
+p { 
+  color: black;
+  font-size: 28px;
+  text-align: center; 
+}
+button {
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  width: 110px;
+  background-color: #D4EE9F;
+  color: #003333;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #D4EE9F;
+  background-color: #003333;
+}
+			
+h2 {
+  color: red;
+  font-size: 30px;
+  text-align: center;
+}
+
+			
+.cell {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  text-align: center;
+  background-color: lightgreen;
+  font-weight: bold;
+  font-size: xx-large;
+  padding: 10px;
+}
+
+.empty {
+  background-color: black;
+}
