@@ -1,0 +1,1 @@
+The user of this game has the option to play the 1–15 puzzle game. The clock is ticking and steps are being recorded with each movement. It is also made in such a way that the user can play an easy game that only requires one step.
